@@ -1,27 +1,116 @@
-# airport-security-VR-simulation
-Multiplayer VR Airport Security Training Simulation built with Unreal Engine 5 featuring AI passengers, interactive security workflows, and real-time multiplayer environments.
-# VR Airport Security Simulation (Multiplayer)
+# Airport Security Simulation using Virtual Reality (VR)
 
-## Project Overview
+## 📌 Project Overview
 
-This project presents a **Multiplayer Virtual Reality Airport Security Simulation** developed using **Unreal Engine 5**.
+This project focuses on building an **interactive Virtual Reality (VR)–based airport security simulation system** that replicates real-world airport operations.
 
-The system simulates a realistic airport environment where players can take roles as **passengers or security personnel** and perform real-world airport security procedures such as:
+Using **Unreal Engine 5**, the system simulates a realistic airport environment where users can interact as **passengers or security personnel**. The simulation demonstrates how VR technology can be used for **training, education, and security procedure simulations** in airport environments.
 
-* baggage scanning
+The system integrates **AI-driven passenger behavior, multiplayer interaction, and security workflow simulation** to create an immersive airport experience.
+
+## 🎯 Objective
+
+* To design a realistic **3D airport environment** using Unreal Engine
+* To simulate **airport security procedures** such as baggage scanning and passenger screening
+* To develop **AI-controlled passengers** that mimic real-world airport behavior
+* To enable **multiplayer interaction** within the virtual airport environment
+* To demonstrate the use of **VR for training and simulation purposes**
+
+## 🧠 System Architecture
+
+The system integrates multiple components to simulate airport operations:
+
+### Key Components
+
+* VR Player Controller for user interaction
+* Multiplayer networking system
+* AI passenger simulation
+* Interactive airport security checkpoints
+* Environment sensors and interaction triggers
+
+The simulation environment allows users to perform tasks such as:
+
 * boarding pass verification
+* baggage scanning
 * passenger screening
-* security monitoring
+* airport navigation
 
-The project demonstrates how **Virtual Reality can be used for airport training and security simulation**.
+## ⚙️ Project Workflow
 
-## Demo Video
+### 1. Environment Modeling
 
-Watch the project demonstration here:
+* Design airport terminals, waiting lounges, and security checkpoints
+* Import 3D models from Sketchfab and CGTrader
+* Optimize models using Blender
 
-https://youtu.be/Rslsf58xje8
+### 2. Environment Integration
 
-## Project Screenshots
+* Import assets into Unreal Engine
+* Apply textures and materials using Physically Based Rendering (PBR)
+* Configure lighting and environment settings
+
+### 3. Gameplay Mechanics
+
+* Implement player interaction systems
+* Develop passenger flow and security processes
+* Enable object interaction such as baggage handling and scanning
+
+### 4. AI Implementation
+
+* Implement AI passengers using Behavior Trees
+* Use NavMesh for pathfinding and navigation
+* Simulate realistic crowd behavior
+
+### 5. Multiplayer Integration
+
+* Enable multiplayer session creation
+* Synchronize player actions across the network
+* Manage real-time interactions between players
+
+### 6. Testing and Optimization
+
+* Debug gameplay mechanics
+* Optimize AI behavior
+* Test multiplayer synchronization and VR interactions
+
+## 🛠️ Technologies & Tools Used
+
+### Development Tools
+
+* Unreal Engine 5
+* Blender
+
+### Programming & Logic
+
+* Unreal Engine Blueprints
+* AI Behavior Trees
+* NavMesh Pathfinding
+
+### VR & Multiplayer
+
+* MetaQuest VR
+* Unreal Multiplayer Networking
+
+### Assets & Resources
+
+* Sketchfab (3D Models)
+* CGTrader (Environment Models)
+* Mixamo (Character Animations)
+* Pixabay (Sound Effects)
+
+
+## 🚀 How to Run the Project
+
+1. Clone this repository:
+
+git clone https://github.com/balapothuri0844-arch/airport-security-VR-simulation.git
+
+2. Open the project in **Unreal Engine 5**
+
+3. Load the main simulation level.
+
+4. Run the simulation in **VR mode or standard play mode**.
+
 
 ### Airport Terminal VR Environment
 
@@ -31,65 +120,22 @@ https://youtu.be/Rslsf58xje8
 
 <img width="1045" height="784" alt="security-baggage-scan" src="https://github.com/user-attachments/assets/6a323fc5-ab3e-4b53-a1cf-2fcd0b9edc0a" />
 
-## Key Features
+## 🎥 Demo Video
 
-### Multiplayer VR Environment
+Watch the project demonstration here:
 
-Players can join multiplayer sessions and interact in a shared airport environment.
+https://youtu.be/Rslsf58xje8
 
-### AI Passenger Simulation
+## 📊 Features of the Simulation
 
-AI characters simulate realistic passenger behavior including:
+* Realistic 3D airport environment
+* AI-driven passenger behavior
+* Interactive security checkpoints
+* Baggage scanning simulation
+* Multiplayer VR environment
+* Dynamic crowd simulation
 
-* walking
-* waiting in queues
-* boarding processes
-
-### Airport Security Workflow
-
-The simulation includes real airport processes such as:
-
-* baggage scanning
-* security checkpoints
-* passenger flow management
-
-### Interactive Environment
-
-Players can interact with:
-
-* boarding kiosks
-* baggage conveyors
-* security scanners
-* airport doors
-
-## Technologies Used
-
-* Unreal Engine 5
-* Virtual Reality (MetaQuest)
-* Blender
-* Mixamo Animations
-* AI Behavior Trees
-* NavMesh Pathfinding
-* Multiplayer Networking
-
-## System Architecture
-
-The system includes the following components:
-
-* VR player controller
-* Multiplayer server sessions
-* AI crowd simulation
-* Interactive airport environment
-* Security scanning systems
-
-## Future Improvements
-
-* Advanced AI passenger behaviors
-* Random security threat detection
-* Larger airport environment
-* Cloud multiplayer support
-
-## Authors
+## 👨‍💻 Author
 
 Bala Phaneendra Pothuri
 University of North Texas
